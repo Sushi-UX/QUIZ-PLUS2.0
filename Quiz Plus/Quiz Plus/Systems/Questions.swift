@@ -35,7 +35,7 @@ class Question{
         choice4 = c4
     }
     
-    // -------- Custom functions
+    // ----------- Custom functions
     
     func giveChoices() -> [String]{
         var temp: [String] = []
@@ -53,6 +53,7 @@ class Question{
         }else{
             return false
         }
+        
     }
     
     func giveQuestion() -> String{
