@@ -54,6 +54,11 @@ class Quiz{
         return correctCount
     }
     
+    func reset(){
+        currentQuestion = 0
+        inCorrectCount = 0
+        correctCount = 0
+    }
 }
 
 
